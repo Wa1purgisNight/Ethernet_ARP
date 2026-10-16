@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_ethernet_arp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_ethernet_arp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,672.001 ns"></ZoomEndTime>
+      <Cursor1Time time="980.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="85"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/tb_ethernet_arp/rgmii_rxc_rc" type="logic">
+      <obj_property name="ElementShortName">rgmii_rxc_rc</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxc_rc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/rx_dv" type="logic">
+      <obj_property name="ElementShortName">rx_dv</obj_property>
+      <obj_property name="ObjectShortName">rx_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/rx_er" type="logic">
+      <obj_property name="ElementShortName">rx_er</obj_property>
+      <obj_property name="ObjectShortName">rx_er</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/frame_data" type="array">
+      <obj_property name="ElementShortName">frame_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/frame_start" type="logic">
+      <obj_property name="ElementShortName">frame_start</obj_property>
+      <obj_property name="ObjectShortName">frame_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/frame_valid" type="logic">
+      <obj_property name="ElementShortName">frame_valid</obj_property>
+      <obj_property name="ObjectShortName">frame_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/frame_error" type="logic">
+      <obj_property name="ElementShortName">frame_error</obj_property>
+      <obj_property name="ObjectShortName">frame_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/frame_end" type="logic">
+      <obj_property name="ElementShortName">frame_end</obj_property>
+      <obj_property name="ObjectShortName">frame_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/arp_tx_payload_data" type="array">
+      <obj_property name="ElementShortName">arp_tx_payload_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">arp_tx_payload_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/arp_tx_start" type="logic">
+      <obj_property name="ElementShortName">arp_tx_start</obj_property>
+      <obj_property name="ObjectShortName">arp_tx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/mac_tx_payload_ready" type="logic">
+      <obj_property name="ElementShortName">mac_tx_payload_ready</obj_property>
+      <obj_property name="ObjectShortName">mac_tx_payload_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/mac_tx_data" type="array">
+      <obj_property name="ElementShortName">mac_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/mac_tx_valid" type="logic">
+      <obj_property name="ElementShortName">mac_tx_valid</obj_property>
+      <obj_property name="ObjectShortName">mac_tx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ethernet_arp/mac_tx_error" type="logic">
+      <obj_property name="ElementShortName">mac_tx_error</obj_property>
+      <obj_property name="ObjectShortName">mac_tx_error</obj_property>
+   </wvobject>
+</wave_config>
